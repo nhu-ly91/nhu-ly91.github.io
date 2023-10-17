@@ -32,6 +32,12 @@ nav ul li{
     width: 33%;
     font-size: 20px;
 }
+.home{
+    border-right: 1px solid black;
+}   
+.story{
+    border-right: 1px solid black;
+}
 /* End of header */
 
 /* Begin of body */
@@ -42,8 +48,8 @@ h2, h3, p{
 
 /* Start paragraph */
 .img-container{
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
     overflow:hidden;
     float: left;
     margin: 5px 15px 2px;
