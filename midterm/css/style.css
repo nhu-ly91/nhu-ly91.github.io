@@ -32,6 +32,13 @@ nav ul li{
     width: 33%;
     font-size: 20px;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+}
 .home{
     border-right: 1px solid black;
 }   
@@ -65,13 +72,13 @@ h2, h3, p{
 .input-form{
     margin: 15px 25px 25px 15px;
 }
-input[id=fname]{
+#fname{
     width: 100%;
 }
-input[id=email]{
+#email{
     width: 100%;
 }
-textarea{
+#message{
     width:100%;
     height: 100px;
 }
