@@ -41,9 +41,14 @@ a:hover{
 }
 .home{
     border-right: 1px solid black;
+    line-height: 35px;
 }   
 .story{
     border-right: 1px solid black;
+    line-height: 35px;
+}
+.menu{
+    margin-top: 0px;
 }
 /* End of header */
 
