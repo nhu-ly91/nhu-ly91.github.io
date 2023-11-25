@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    background-color:rgb(34, 34, 34);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+}
+ul li{
+    display: inline-flex;
+}
+a{
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 15px;
+}
+a:hover{
+    background-color: rgb(199, 141, 0);
+    color: rgb(34, 34, 34);
+}
+.home-page{
+    background-color: rgb(199, 141, 0);
+    color: rgb(34, 34, 34);
+    align-items: center;
+}
+.about-page{
+    color: rgb(199, 141, 0);
+}
+.services-page{
+    color: rgb(199, 141, 0);
+}
+.team-page{
+    color: rgb(199, 141, 0);
+}
+.contact-page{
+    color: rgb(199, 141, 0);
+}
