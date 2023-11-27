@@ -198,3 +198,35 @@ a:hover{
     grid-row: 1/2;
     width: 100%;
 }
+
+/* Start contact */
+h2{
+    margin-left: 90px;
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin-left: 90px;
+    margin-right: 90px;
+}
+#name {
+    width: 600px;
+}
+#mail{
+    width: 600px;
+}
+#message{
+    width: 600px;
+    height: 200px;
+}
+
+/* Start hours */
+.hours{
+    margin-left: 90px;
+}
+.table{
+    border: solid;
+}
+
+/* @media screen and (min-width:760px) and (max-width:1200px) */
