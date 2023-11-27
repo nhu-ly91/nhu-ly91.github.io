@@ -161,6 +161,40 @@ a:hover{
 
 /* Start team */
 .team{
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.team-1{
     display: grid;
-    
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+#john-img{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 100%;
+}
+.team-1-info{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: rgb(251, 231, 179);
+    padding-left: 10px;
+}
+.team-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+.team-2-info{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: rgb(251, 231, 179);
+    padding-left: 10px;
+
+}
+#bob-img{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 100%;
 }
