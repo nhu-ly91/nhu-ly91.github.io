@@ -224,9 +224,31 @@ h2{
 /* Start hours */
 .hours{
     margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 10px;
 }
-.table{
+table, th, td{
     border: solid;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    height: 120px;
+}
+.main-info{
+    background-color: rgb(251, 231, 179);
+    border-bottom: solid;
+}
+
+/* Start footer */
+.footer{
+    background-color: rgb(34, 34, 34);
+    color: rgb(199, 141, 0);
+    padding: 10px;
+}
+.copy{
+    margin-left: 80px;
+    line-height: 2.5;
 }
 
 /* @media screen and (min-width:760px) and (max-width:1200px) */
