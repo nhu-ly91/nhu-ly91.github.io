@@ -91,7 +91,7 @@ h1{
 
 
 /* START DESKTOP VERSION */
-@media screen and (min-width:1200px){
+@media screen and (min-width:760px){
 /* start for navigation */
 nav{
     background-color:rgb(34, 34, 34);
