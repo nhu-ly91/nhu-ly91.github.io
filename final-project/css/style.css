@@ -7,29 +7,32 @@ body{
 /* MOBILE VERSION */
 /* start navigation     */
 header{
-    display: flex;
-    flex-direction: column;
     background-color: rgb(34, 34, 34);
-    justify-content: center;
-    align-items: center;
-    padding: 25px;
 }
-ul li{
-    display: flex;
-    flex-direction: column;
+.logo-top{
+    background-color: rgb(199, 141, 0);
+}
+nav ul {
+    list-style-type: none;   
+}
 
-}
 a{
+    color: rgb(199, 141, 0);
     text-decoration: none;
     width: 100%;
-    padding: 15px;
-    align-self: center;
+    line-height: 3;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 a:hover{
     width: 100%;
     background-color: rgb(199, 141, 0);
     color: rgb(34, 34, 34);
 }
+/* 
+
+
 .home-page{
     background-color: rgb(199, 141, 0);
     color: rgb(34, 34, 34);
@@ -46,7 +49,7 @@ a:hover{
 }
 .contact-page{
     color: rgb(199, 141, 0);
-}
+} */
 .search{
     display: flex;
     align-content: center;
@@ -58,6 +61,9 @@ a:hover{
     color: rgb(199, 141, 0);
     border: solid;
     border-color: rgb(199, 141, 0);
+}
+#search-box{
+    width: 100%;
 }
 
 /* start banner */
@@ -141,6 +147,31 @@ h3{
     display: block;
     width:100%;
 }
+
+/* Start vision */
+#vision-img {
+    display: block;
+    width: 100%;
+}
+.vision{
+    position: relative;
+}
+.text-block2{
+    position: absolute;
+    color: white;
+    left: 20px;
+    bottom:20px;
+}
+.btn-vision{
+    background-color: rgb(34, 34, 34);
+    border-style: solid;
+    border-color: rgb(199, 141, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}    
 
 
 /* START DESKTOP VERSION */
