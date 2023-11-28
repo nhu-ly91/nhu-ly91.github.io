@@ -41,12 +41,43 @@ a:hover{
 .contact-page{
     color: rgb(199, 141, 0);
 }
+.search{
+    align-content: baseline;
+}
+#search-icon{
+    background-color: rgb(34, 34, 34);
+    color: rgb(199, 141, 0);
+    border: solid;
+    border-color: rgb(199, 141, 0);
+}
 
 /* Start for banner */
 #banner-img {
     width: 100%;
     height: 600px;
     object-fit: cover;
+}
+.container{
+    position: relative;
+}
+.text-block{
+    position: absolute;
+    background-color: black;
+    color: white;
+    left: 90px;
+    right: 90px;
+    bottom: 60px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+h1{
+    font-size: 70px;
+}
+.btn-connect{
+    background-color: rgb(199, 141, 0);
+    border-style: none;
+    padding: 20px;
+    font-size: 15px;
 }
 
 /* start for about */
