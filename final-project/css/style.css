@@ -13,7 +13,8 @@ header{
     background-color: rgb(199, 141, 0);
 }
 nav ul {
-    list-style-type: none;   
+    list-style-type: none;
+    padding: 0;  
 }
 
 a{
@@ -24,11 +25,13 @@ a{
     display: flex;
     justify-content: center;
     align-content: center;
+    padding: 0;
 }
 a:hover{
     width: 100%;
     background-color: rgb(199, 141, 0);
     color: rgb(34, 34, 34);
+    padding: 0;
 }
 /* 
 
@@ -152,9 +155,28 @@ h3{
 #vision-img {
     display: block;
     width: 100%;
+    height: 250px;
 }
 .vision{
     position: relative;
+}
+#john-img{
+    display: block;
+    width: 100%;
+}
+#bob-img{
+    display: block;
+    width: 100%;
+}
+h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h5{
+    border-bottom: solid;
+    border-color: rgb(199, 141, 0);
+    margin: 0;
+
 }
 .text-block2{
     position: absolute;
@@ -173,6 +195,35 @@ h3{
     padding: 20px;
 }    
 
+/* Start footer */
+.footer{
+    background-color: rgb(34, 34, 34);
+    color: rgb(199, 141, 0);
+    padding: 10px;
+}
+.copy{
+    margin: left;
+    line-height: 2.5;
+}
+
+/* Start hours */
+.hours{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+table, th, td{
+    border: solid;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    height: 120px;
+}
+.main-info{
+    background-color: rgb(251, 231, 179);
+    border-bottom: solid;
+}
 
 /* START DESKTOP VERSION */
 @media screen and (min-width:760px){
