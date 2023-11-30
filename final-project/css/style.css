@@ -43,6 +43,23 @@ a:hover{
     color: rgb(34, 34, 34);
     padding: 0;
 }
+.search{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.search-icon{
+    background-color: rgb(34, 34, 34);
+    color: rgb(199, 141, 0);
+    border: solid;
+    border-color: rgb(199, 141, 0);
+}
+#search-box{
+    width: 100%;
+}
 
 /* start banner */
 #banner-img {
