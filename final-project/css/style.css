@@ -4,6 +4,9 @@ body{
 .arrow-icon{
     scale: 2;
 }
+h2{
+    font-size: 24pt;
+}
 /* MOBILE VERSION */
 /* start navigation     */
 header{
@@ -193,7 +196,13 @@ h5{
     justify-content: center;
     align-items: center;
     padding: 20px;
-}    
+}
+
+/* Start team */
+.yellow-part2{
+    background-color: rgb(251, 231, 179);
+    margin-top: 0;
+    padding: 10px 10px 10px 10px;
 
 /* Start footer */
 .footer{
@@ -204,6 +213,13 @@ h5{
 .copy{
     margin: left;
     line-height: 2.5;
+}
+
+/* start contact */
+.location{
+    margin-left: 10px;
+    margin-right: 10px; 
+    margin-bottom: 10px;
 }
 
 /* Start hours */
@@ -424,7 +440,10 @@ h1{
     height: 250px;
     object-fit: cover;
 }
-
+.text-block2{
+    margin-left: 90px;
+    margin-right: 90px;
+}
 
 /* Start team */
 .team{
@@ -436,6 +455,11 @@ h1{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
+}
+.yellow-part2{
+    background-color: rgb(251, 231, 179);
+    margin-top: 0;
+    padding: 10px 10px 10px 10px;
 }
 #john-img{
     grid-column: 1/2;
