@@ -18,6 +18,7 @@ h3{
 }
 
 /* MOBILE VERSION */
+@media screen and (max-width:760px){
 /* start navigation     */
 header{
     background-color: rgb(34, 34, 34);
@@ -272,63 +273,63 @@ footer{
     margin: left;
     line-height: 2.5;
 }
+}
 
 /* START DESKTOP VERSION */
 @media screen and (min-width:760px){
 /* start for navigation */
+header{
+    background-color: rgb(34, 34, 34);
+    padding: 0;
+}
+.logo-top{
+    background-color: rgb(199, 141, 0);
+}
 nav{
-    background-color:rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+ul{
+    list-style-type: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-    padding: 25px;
-}
-#main-logo{
-    margin-left: 40px;
-}
-ul li{
-    display: inline-flex;
 }
 a{
+    color: rgb(199, 141, 0);
     text-decoration: none;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: 15px;
+    padding: 20px;
+    margin: 20px;
 }
 a:hover{
     background-color: rgb(199, 141, 0);
     color: rgb(34, 34, 34);
+    padding: 20px;
+    margin: 20px;
 }
-.home-page{
-    background-color: rgb(199, 141, 0);
-    color: rgb(34, 34, 34);
-    align-items: center;
-}
-.about-page{
-    color: rgb(199, 141, 0);
-}
-.services-page{
-    color: rgb(199, 141, 0);
-}
-.team-page{
-    color: rgb(199, 141, 0);
-}
-.contact-page{
-    color: rgb(199, 141, 0);
-}
+/* start search box */
 .search{
     display: flex;
     align-content: center;
     justify-content: center;
-    margin-right: 40px;
+    padding: 10px;
+    height: 30px;
 }
 .search-icon{
     background-color: rgb(34, 34, 34);
     color: rgb(199, 141, 0);
     border: solid;
     border-color: rgb(199, 141, 0);
+    padding: 5px;
 }
+#search-box{
+    width: 100%;
+    font-size: 12pt;
+}
+
 
 /* Start for banner */
 #banner-img {
