@@ -280,10 +280,10 @@ footer{
 /* start for navigation */
 header{
     background-color: rgb(34, 34, 34);
-    padding: 0;
 }
 .logo-top{
     background-color: rgb(199, 141, 0);
+    scale: 60%;
 }
 nav{
     display: flex;
@@ -302,13 +302,13 @@ a{
     color: rgb(199, 141, 0);
     text-decoration: none;
     padding: 20px;
-    margin: 20px;
+    margin: 40px;
 }
 a:hover{
     background-color: rgb(199, 141, 0);
     color: rgb(34, 34, 34);
     padding: 20px;
-    margin: 20px;
+    margin: 40px;
 }
 /* start search box */
 .search{
@@ -330,7 +330,6 @@ a:hover{
     font-size: 12pt;
 }
 
-
 /* Start for banner */
 #banner-img {
     width: 100%;
@@ -349,10 +348,12 @@ a:hover{
     right: 90px;
     bottom: 50px;
     padding-left: 10px;
-    padding-bottom: 10px;
+    padding-top: 100px;
 }
 h1{
     font-size: 70px;
+    width: 800px;
+    flex-wrap: wrap;
 }
 .btn-connect{
     display: flex;
@@ -389,7 +390,6 @@ h1{
     line-height: 1.5;
 }
 
-
 /* Start for services */
 .btn{
     display: flex;
@@ -401,6 +401,9 @@ h1{
     align-items: center;
     width: 100%;
     font-size: 15pt;
+}
+.yellow-part{
+    padding: 10px;
 }
 .services {
     margin-left: 90px;
@@ -475,9 +478,27 @@ h1{
     height: 250px;
     object-fit: cover;
 }
+.vision{
+    position: relative;
+}
 .text-block2{
-    margin-left: 90px;
-    margin-right: 90px;
+    position: absolute;
+    color: white;
+    left: 90px;
+    right: 90px;
+    bottom:20px;
+}
+.btn-vision{
+    font-size: 14pt;
+    background-color: #172B43;
+    border-style: solid;
+    border-color: rgb(199, 141, 0);
+    border-width: 1px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 /* Start team */
@@ -524,8 +545,17 @@ h1{
     grid-row: 1/2;
     width: 100%;
 }
+h5{
+    border-bottom: solid;
+    border-color: rgb(199, 141, 0);
+    margin: 0;
+
+}
 
 /* Start contact */
+.contact-text{
+    margin-left: 90px;
+}
 .contact{
     display: grid;
     grid-template-columns: 50% 50%;
@@ -534,18 +564,46 @@ h1{
     margin-right: 90px;
 }
 #form{
-    margin: 0;
-    margin-right: 5px;
+    margin-top: 10px;
+    margin-right: 20px;
+    line-height: 2;
 }
-
-/* Start hours */
+#name{
+    width: 100%;
+    height: 20px;
+}
+#mail{
+    width: 100%;
+    height: 20px;
+}
+#message{
+    width: 100%;
+    height: 150px;
+}
+.btn-send{
+    background-color: rgb(34, 34, 34);
+    color: rgb(199, 141, 0);
+    border-style: none;
+    padding: 10px;
+    font-size: 12pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.location{
+    width: 100%;
+    height: auto;
+}
+.map{
+    width: 50%;
+}
 .hours{
-    margin-left: 90px;
-    margin-right: 90px;
+    grid-row: 2/3;
+    grid-column: 1/3;
     margin-bottom: 10px;
 }
 table, th, td{
     border: solid;
+    padding: 10px;
 }
 table{
     width: 100%;
